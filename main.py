@@ -6,7 +6,7 @@ from datetime import datetime
 
 SLACK_TOKEN = os.environ["SLACK_TOKEN"]
 # CHANNEL_ID = "CJ7QVGVT2"
-GOOGLE_KEY = 'aixd-convo-bot-d8680aa62efb.json'
+GOOGLE_KEY = os.environ["GOOGLE_KEY"]
 
 def slackBotMessage(message):
     # connect to api and create client
